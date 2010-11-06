@@ -1,7 +1,7 @@
 
-/upForm.dmb
-/upForm.rsc
-/upForm.dyn.rsc
-/upForm.rsc.lk
-/upForm.lk
-/upForm.int
+*.dmb
+*.rsc
+*.dyn.rsc
+*.rsc.lk
+*.lk
+*.int
