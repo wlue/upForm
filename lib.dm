@@ -1,20 +1,19 @@
 
 /*
-	------------------------------------------------------------------------------------
 
 	upForm Library
+	==============
+
 	By: Unknown Person
 
-	------------------------------------------------------------------------------------
-
-	upForm is a library that handles a variety of HTML interfaces through the datum
-	/upForm. Common functionality between forms are all defined for you, and the
-	library gives freedom to an interface's functionality while maintaining a set of
-	critical and useful features.
+	upForm is a library for the DM Programming Language that handles a variety of
+	HTML interfaces through the datum `/upForm`. Common functionality between
+	forms are all defined for you, and the library maintains a set of critical and
+	useful features while being easily extendable.
 
 	Feature List:
 	 * Declare new interfaces by defining a child of the /upForm datum, and display it
-	   by simply calling upForm()
+	   by simply calling `upForm()`
 	 * Handles BYOND 4.0 browser control interfaces, and windows
 	 * Easy definition of CSS and JavaScript code
 	 * Handles multiple viewers at the same time
@@ -22,9 +21,17 @@
 	 * Easy implementation of HTML forms
 	 * Contains basic time-keeping functions
 
-	------------------------------------------------------------------------------------
+	## Example Usage ##
 
-	Release History:
+		upForm/helloworld
+		  GenerateBody()
+		    UpdatePage("Hello")
+
+		mob/Login()
+			..()
+			upForm(src, /upForm/helloworld)
+
+	## Release History ##
 
 	Version 1.0 (Jan 21, 08)
 	 - Library released
@@ -39,11 +46,11 @@
 	   output interface (old testing code)
 	 - Renamed javascript functions for quick linking to be shorter (all links
 	   are now prefixed with 'upF_' rather than 'upForm_')
-	 - Added new javascript function 'upF_sAction()', which allows a link to be sent
+	 - Added new javascript function `upF_sAction()`, which allows a link to be sent
 	   with an action and value param
 
 	Version 1.3 (May 17th, 2008)
-	 - upForm_formatViewerList() was not completly formatting all objects
+	 - `upForm_formatViewerList()` was not completly formatting all objects
 	   in the list
 
 	------------------------------------------------------------------------------------
