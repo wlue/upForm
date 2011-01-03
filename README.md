@@ -29,7 +29,7 @@ useful features while being easily extendable.
 	
 ## Release History
 
-Version 1.0, January 21st, 2008
+#### Version 1.0, January 21st, 2008
 *   Library released
 
 Version 1.1, January 22nd, 2008
